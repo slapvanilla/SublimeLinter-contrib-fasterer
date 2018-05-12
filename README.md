@@ -3,7 +3,7 @@ SublimeLinter-contrib-fasterer
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-fasterer.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-fasterer)
 
-This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [fasterer](__linter_homepage__). It will be used with files that have the “__syntax__” syntax.
+This linter plugin for [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) provides an interface to [fasterer](https://github.com/DamirSvrtan/fasterer). It will be used with files that have the `ruby`, `ruby on rails`, `rspec`, `betterruby`, `better rspec`, `ruby experimental` or `cucumber steps` syntax.
 
 ## Installation
 SublimeLinter must be installed in order to use this plugin.
@@ -17,10 +17,3 @@ In order for `fasterer` to be executed by SublimeLinter, you must ensure that it
 ## Settings
 - SublimeLinter settings: http://sublimelinter.readthedocs.org/en/latest/settings.html
 - Linter settings: http://sublimelinter.readthedocs.org/en/latest/linter_settings.html
-
-Additional SublimeLinter-fasterer settings:
-
-|Setting|Description    |
-|:------|:--------------|
-|foo    |Something.     |
-|bar    |Something else.|
