@@ -1,15 +1,3 @@
-#
-# linter.py
-# Linter for SublimeLinter3, a code checking framework for Sublime Text 3
-#
-# Adapted by slapvanilla
-# Copyright (c) 2018 slapvanilla
-#
-# License: MIT
-#
-
-"""This module exports the fasterer plugin class."""
-
 from SublimeLinter.lint import RubyLinter  # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
 
 class Fasterer(RubyLinter):
@@ -33,8 +21,6 @@ class Fasterer(RubyLinter):
   version_args = '-S gem list | grep fasterer'
   version_re = r'fasterer \((?P<version>\d+\.\d+\.\d+)\)'
   version_requirement = '>= 0.4.1'
-
-  # config_file = ('-c', '.fasterer.yml')
 
   # Other Options
   multiline = False
