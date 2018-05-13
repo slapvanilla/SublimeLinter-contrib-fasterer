@@ -1,4 +1,5 @@
 from SublimeLinter.lint import RubyLinter
+from SublimeLinter import lint
 
 class Fasterer(RubyLinter):
   """Provides an interface to fasterer."""
@@ -11,6 +12,6 @@ class Fasterer(RubyLinter):
     'selector': 'source.ruby'
   }
 
-  default_type = RubyLinter.WARNING
+  default_type = lint.WARNING
   tempfile_suffix = 'rb'
   multiline = False
