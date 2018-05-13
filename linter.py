@@ -11,6 +11,6 @@ class Fasterer(RubyLinter):
     'selector': 'source.ruby'
   }
 
-  default_type = SublimeLinter.lint.WARNING
+  default_type = RubyLinter.WARNING
   tempfile_suffix = 'rb'
   multiline = False
