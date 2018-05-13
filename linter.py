@@ -1,7 +1,6 @@
-from SublimeLinter.lint import RubyLinter
 from SublimeLinter import lint
 
-class Fasterer(RubyLinter):
+class Fasterer(lint.RubyLinter):
   """Provides an interface to fasterer."""
   cmd = 'ruby -S fasterer'
 
